@@ -1,80 +1,89 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  font-family: Arial, sans-serif;
-}
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  background-image: url("fdae9f4b-480d-4b9d-90dd-4cdb4f17374e.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  position: relative;
-}
-
-header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-h1 {
-  font-size: 28px;
-  margin: 20px 0;
-}
-
-form, #review-form {
-  margin-bottom: 20px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-input[type="text"], input[type="password"], textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-#review-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-#review-list li {
-  border-bottom: 1px solid #c4c4c4;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-}
-
-#review-list li:last-child {
-  border-bottom: none;
-}
-
-#review-list li span {
-  font-weight: bold;
-  color: #f3f1f1;
-}
-
-#review-list li p {
-  margin-top: 5px;
-}
-
-footer {
-  text-align: center;
-  margin-top: 30px;
-  color: #888;
-}
+    margin: 0;
+    padding: 0;
+    background-color: #999797;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url("fdae9f4b-480d-4b9d-90dd-4cdb4f17374e.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+    color:#fff
+  }
+  
+  h1 {
+    font-size: 80px;
+    margin: 20px 0;
+    color:#fff
+  }
+  
+  form, #review-form {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  input[type="text"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #review-list {
+    list-style-type: none;
+    padding: 0;
+    background-color: #ddd;
+  }
+  
+  #review-list li {
+    border-bottom: 1px solid #c4c4c4;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: black;
+    
+  }
+  
+  #review-list li:last-child {
+    border-bottom: none;
+  }
+  
+  #review-list li span {
+    font-weight: bold;
+    color: black;
+  }
+  
+  #review-list li p {
+    margin-top: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #888;
+  }
+  
