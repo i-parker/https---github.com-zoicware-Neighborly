@@ -1,4 +1,4 @@
-// Sample reviews data 
+// "Neighborly.js" file
 let reviews = [
     { username: 'John', rating: 4, review: 'Great neighborhood!' },
     { username: 'Jane', rating: 5, review: 'Excellent place to live.' },
