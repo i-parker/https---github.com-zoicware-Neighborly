@@ -51,10 +51,20 @@ body {
     cursor: pointer;
   }
   
+  #reviews h2{
+    color: black;
+    background-color: #ddd;
+    margin-bottom: 0px;
+    border-bottom: 5px;
+    border-color: black;
+  }
+  
   #review-list {
     list-style-type: none;
     padding: 0;
     background-color: #ddd;
+    margin-top: 1px;
+   
   }
   
   #review-list li {
